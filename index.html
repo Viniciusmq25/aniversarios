@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Convidados</title>
+  <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+  <div>
+    <div class="header">
+      <h1>Aniversários da rapazeada</h1>
+      <div>
+        <a href="https://github.com/Viniciusmq25">Repositórios</a>
+        <a href="https://www.linkedin.com/in/vinicius-quintian-1500b6257/">linkedin</a>
+      </div>
+    </div>
+    <div class="container-form">
+    <form class="form" id="novoitem">
+      <label for="nome">Nome do convidado</label>
+      <input type="text" name="nomeDaPessoa" placeholder="Nome" id="nome" required maxlength="120">
+      <label for="data">Dia do aniversário</label>
+      <input type="text" name="aniversário" placeholder="ex: 25/03/1999" id="data" required maxlength="120">
+
+      <input type="submit" id="submit" class="submit" name="submit">
+    </form>
+  </div>
+    <ul class="lista" id="lista">
+  
+    </ul>
+  </div>
+</body>
+  <script src="main.js"></script>
+</html>
